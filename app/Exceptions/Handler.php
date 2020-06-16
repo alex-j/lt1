@@ -50,6 +50,9 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Throwable $exception)
     {
+        if($request->has('test')){
+            var_dump($exception->getMessage()); exit();
+        }
         return parent::render($request, $exception);
     }
 }
