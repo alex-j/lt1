@@ -1,0 +1,11 @@
+link: https://github.com/adamwathan/laracon2017
+
+The core idea is to try and stick to the 7 standard REST/CRUD actions in your controllers:
+
+Index
+Show
+Create
+Store
+Edit
+Update
+Destroy
