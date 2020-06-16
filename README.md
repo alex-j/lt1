@@ -1,3 +1,4 @@
+<pre>
 [root@fedora-s-1vcpu-2gb-fra1-01 laratest]# sh test.sh
 admin
 {"success":"true","id":"INSERT ID"}
